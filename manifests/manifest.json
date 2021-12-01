@@ -1,0 +1,80 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://SophieBL1.github.io/bnfjapan/manifests/manifest.json",
+  "@type" : "sc:Manifest",
+  "label" : "Japanese and BNF",
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "[Click to edit description]",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "[Click to edit attribution]",
+  "sequences" : [ {
+    "@id" : "http://b9e5bc87-162f-4766-9734-b87d307ce935",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://a85c5783-f12a-45bd-8dbd-c20b6644848b",
+      "@type" : "sc:Canvas",
+      "label" : "Empty canvas",
+      "height" : 6440,
+      "width" : 4888,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://371fedd8-9e1c-4291-9731-975ac548c268",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k961164f/f1/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://library.stanford.edu/iiif/image-api/1.1/context.json",
+            "@id" : "https://gallica.bnf.fr/iiif/ark:/12148/bpt6k961164f/f1",
+            "profile" : "http://library.stanford.edu/iiif/image-api/1.1/compliance.html#level2"
+          },
+          "height" : 6440,
+          "width" : 4888
+        },
+        "on" : "http://a85c5783-f12a-45bd-8dbd-c20b6644848b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://7e07a82d-04df-4f90-816f-06f4053ebd5c",
+      "@type" : "sc:Canvas",
+      "label" : "Japanese",
+      "height" : 4632,
+      "width" : 6159,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://acf6be53-967b-49d4-99b8-6c9cd9759ab3",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101764233.0x000005/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://api.bl.uk/image/iiif/ark:/81055/vdc_100101764233.0x000005",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "maxHeight" : 2000,
+              "maxWidth" : 2000,
+              "qualities" : [ "gray", "color", "bitonal" ],
+              "supports" : [ "rotationArbitrary", "mirroring", "regionSquare", "profileLinkHeader" ]
+            } ]
+          },
+          "height" : 4632,
+          "width" : 6159
+        },
+        "on" : "http://7e07a82d-04df-4f90-816f-06f4053ebd5c"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ]
+}
