@@ -1,0 +1,13 @@
+{
+  "id" : "https://SophieBL1.github.io/bnfjapan/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in SophieBL1/bnfjapan project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://SophieBL1.github.io/bnfjapan/manifests/manifest.json",
+    "label" : "Japanese and BNF"
+  } ]
+}
